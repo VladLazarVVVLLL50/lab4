@@ -28,3 +28,11 @@ void display(Node *head)
 	}
 	printf("\n");
 }
+
+void modify_value(Node **head, Data v, int k)
+{Node *aux = *head ;
+ int i;
+ for(i=0;i<k;i++)aux=aux->next;
+ aux->val=v;
+
+}

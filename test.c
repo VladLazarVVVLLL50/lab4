@@ -10,7 +10,8 @@ int main()
   addAtEnd(&v,x);
  }
  display(v);
-
+ modify_value(&v,12,3);
+ display(v);
 
     return 0;
 }
